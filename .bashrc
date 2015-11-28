@@ -13,5 +13,11 @@ if [ -f /etc/bash_completion ]; then
    . /etc/bash_completion
 fi
 alias ll='ls -l'
+alias mplayer='mpv'
+alias sudo='sudo '
+
+export EDITOR="vim"
+
+complete -cf sudo
 
 
