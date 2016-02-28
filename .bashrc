@@ -20,4 +20,6 @@ export EDITOR="vim"
 
 complete -cf sudo
 
+cat /usr/share/pokeshell/$(($RANDOM % 151 + 1)).pokemon
+
 
